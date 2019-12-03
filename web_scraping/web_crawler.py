@@ -2,7 +2,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 
 
-quotes_page = 'http://mohsinweb.herokuapp.com/quotes/'
+quotes_page = ''
 connect = request.urlopen(quotes_page)
 page_html = connect.read()
 connect.close()
