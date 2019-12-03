@@ -3,7 +3,7 @@ import scrapy
 class quotes(scrapy.Spider):
     name = 'quotes'
     star_urls = [
-        'http://mohsinweb.herokuapp.com/quotes/'
+        ''
     ]
 
     def parse(self, response):
